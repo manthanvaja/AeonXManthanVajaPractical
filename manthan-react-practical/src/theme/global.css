@@ -1,0 +1,146 @@
+:root {
+  /* Colors */
+  --primary-orange: #ff6600;
+  --primary-orange-hover: #e65c00;
+  --secondary-blue: #0052d4;
+  --text-white: #ffffff;
+  --text-gray: #b3b3b3;
+  --text-light-gray: #c0c0c0;
+  --text-very-light-gray: #d3d3d3;
+  --background-black: #000000;
+  --background-white: #ffffff;
+  --overlay-black: rgba(0, 0, 0, 0.4);
+  --icon-circle-blue: #00aaff;
+
+  /* Typography */
+  --font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  --font-size-base: 1rem;
+  --font-size-sm: 0.9rem;
+  --font-size-lg: 1.5rem;
+  --font-size-xl: 2.5rem;
+  --font-size-2xl: 3rem;
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 3rem;
+  --spacing-2xl: 4rem;
+
+  /* Layout */
+  --container-max-width: 1200px;
+  --section-padding: 4rem 2rem;
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  font-family: var(--font-family);
+  background-color: var(--background-black);
+  color: var(--text-white);
+  line-height: 1.6;
+}
+
+/* Global Section Styles */
+.section {
+  padding: var(--section-padding);
+}
+
+.section-container {
+  max-width: var(--container-max-width);
+  margin: 0 auto;
+}
+
+/* Global Typography Styles */
+.title-primary {
+  font-size: var(--font-size-2xl);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+}
+
+.title-secondary {
+  font-size: var(--font-size-xl);
+  font-weight: 700;
+  line-height: 1.2;
+  margin-bottom: var(--spacing-md);
+}
+
+.text-orange {
+  color: var(--primary-orange);
+}
+
+.text-blue {
+  color: var(--secondary-blue);
+}
+
+.text-gray {
+  color: var(--text-gray);
+}
+
+.text-light-gray {
+  color: var(--text-light-gray);
+}
+
+.text-very-light-gray {
+  color: var(--text-very-light-gray);
+}
+
+.description-text {
+  color: var(--text-light-gray);
+  font-size: var(--font-size-base);
+  line-height: 1.8;
+  max-width: 900px;
+}
+
+/* Global Button Styles */
+.btn {
+  display: inline-block;
+  padding: 0.875rem 2rem;
+  font-size: var(--font-size-base);
+  font-weight: 600;
+  text-decoration: none;
+  border: none;
+  border-radius: 0;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  font-family: var(--font-family);
+}
+
+.btn-primary {
+  background-color: var(--primary-orange);
+  color: var(--text-white);
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-orange-hover);
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(255, 102, 0, 0.3);
+}
+
+.btn-secondary {
+  background-color: var(--background-black);
+  color: var(--text-white);
+  border: 2px solid var(--text-white);
+}
+
+.btn-secondary:hover {
+  background-color: var(--text-white);
+  color: var(--background-black);
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  :root {
+    --font-size-xl: 2rem;
+    --font-size-2xl: 2rem;
+    --section-padding: 3rem 1.5rem;
+  }
+}
