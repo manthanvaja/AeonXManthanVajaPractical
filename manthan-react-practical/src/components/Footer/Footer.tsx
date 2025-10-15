@@ -1,5 +1,3 @@
-// Updated: D:\AeonXPractical\manthan-react-practical\src\components\Footer\Footer.tsx
-import React from "react";
 import "./Footer.css";
 import youtubeIcon from "../../assets/iconImages/youtube.png";
 import linkedinIcon from "../../assets/iconImages/linkedin.png";

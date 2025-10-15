@@ -1,4 +1,3 @@
-import React from "react";
 import "./HeroSection.css";
 import Navbar from "../Navbar/Navbar";
 import EventInfoWithTimer from "../EventInfoWithTimer/EventInfoWithTimer";

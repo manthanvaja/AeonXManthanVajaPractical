@@ -1,4 +1,3 @@
-import React from "react";
 import "./WhatYouWillLearn.css";
 import compassIcon from "../../assets/iconImages/compass.png";
 import aiHandIcon from "../../assets/iconImages/ai-hand.png";

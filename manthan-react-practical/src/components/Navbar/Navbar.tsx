@@ -1,4 +1,3 @@
-import React from "react";
 import "./Navbar.css";
 import youtubeIcon from "../../assets/iconImages/youtube.png";
 import linkedinIcon from "../../assets/iconImages/linkedin.png";

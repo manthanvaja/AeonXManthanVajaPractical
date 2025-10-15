@@ -1,4 +1,3 @@
-import React from "react";
 import HeroSection from "./components/HeroSection/HeroSection";
 import WhatYouWillLearn from "./components/WhatYouWillLearn/WhatYouWillLearn";
 import AboutEvent from "./components/AboutEvent/AboutEvent";

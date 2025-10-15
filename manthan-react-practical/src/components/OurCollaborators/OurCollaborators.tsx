@@ -1,4 +1,3 @@
-import React from "react";
 import "./OurCollaborators.css";
 import awsLogo from "../../assets/logoImages/aws-partner.png";
 import sapLogo from "../../assets/logoImages/sap-gold-partner.png";
